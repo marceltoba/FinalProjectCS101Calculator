@@ -1,5 +1,6 @@
 import math
 
+print("WELCOME TO MARCULATOR")
 answer="Yes"
 first_number=int(input("First number : "))
 while answer=="Yes":
@@ -36,4 +37,12 @@ while answer=="Yes":
         second_number=int(input("Second Number : "))
         first_number**=(1/second_number)
         print(math.ceil(first_number))
+    else:
+        print("Please type according to the example")
     answer=input("Want to continue : ").capitalize()
+    if(answer!="No" or answer!="Yes"):
+        print("Please answer yes or no!")
+        continue
+    else:
+        continue
+print("YOUR FINAL ANSWER IS : "+str(first_number))
