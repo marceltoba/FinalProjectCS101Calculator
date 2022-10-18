@@ -1,3 +1,3 @@
-# FinalProjectCS101Wordle
+# FinalProjectCS101Calculator
 
 Duar
